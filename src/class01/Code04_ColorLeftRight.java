@@ -26,7 +26,7 @@ public class Code04_ColorLeftRight {
 	}
 
 	public static void main(String[] args) {
-		String test = "GGGGGR";
+		String test = "RRGGGRGGRGGGGGGRRRRGRRGRGGGRGGGR";
 		System.out.println(minPaint(test));
 	}
 

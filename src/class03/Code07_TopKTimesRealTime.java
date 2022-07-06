@@ -21,6 +21,7 @@ public class Code07_TopKTimesRealTime {
 		private HashMap<String, Node> strNodeMap;
 		private HashMap<Node, Integer> nodeIndexMap;
 
+		// 创建一个小根堆
 		public TopKRecord(int K) {
 			heap = new Node[K];
 			heapSize = 0;

@@ -2,6 +2,8 @@ package class01;
 
 public class Code03_ParenthesesDeep {
 
+	// 如果i位置是')'那么前一位置的最长有效括号左边的位置进行比较
+	// 如果是'(' 就是有效的，不存在更长的情况
 	public static boolean isValid(char[] str) {
 		if (str == null || str.length == 0) {
 			return false;
